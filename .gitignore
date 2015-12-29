@@ -1,0 +1,4 @@
+m2
+etc/go/cruise-config.xml.*
+var/lib/go-server/artifacts/cache/**
+var/lib/go-server/artifacts/pipelines/**
