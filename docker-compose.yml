@@ -10,7 +10,7 @@ goserver:
     - "8154:8154"
     - "8153:8153"
 agent01:
-  image: daocloud.io/yunlong/gocd-agent-mvn
+  image: twleansw/leansw-gocd-agent-docker
   volumes:
    - /root/.m2/:/var/go/.m2/
   environment:
@@ -18,7 +18,7 @@ agent01:
   links:
    - goserver
 agent02:
-  image: daocloud.io/yunlong/gocd-agent-mvn
+  image: twleansw/leansw-gocd-agent-docker
   volumes:
    - /root/.m2/:/var/go/.m2/
   environment:
